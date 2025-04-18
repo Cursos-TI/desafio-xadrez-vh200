@@ -25,10 +25,22 @@ int main() {
         if (b < 5) {
             printf("Para cima à direita\n");
         } else {
-            printf(".");
+            printf("."); 
         }
         b++;
     } while (b < 10);
 
-    return 0;
+    // Separação visual
+    printf("\n--- Agora movendo o cavalo ---\n\n");
+
+    int j = 1;
+    while (j <= 1) {
+        for (int k = 0; k < 2; k++) {
+            printf("Cima\n");
+        }
+        printf("Direita\n");
+        j++;
+    }
+
+    return 0; 
 }
